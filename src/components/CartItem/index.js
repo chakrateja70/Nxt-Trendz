@@ -40,7 +40,7 @@ const CartItem = props => (
                 type="button"
                 className="quantity-controller-button"
                 // eslint-disable-next-line react/no-unknown-property
-                testid="minus"
+                data-testid="minus"
                 onClick={onClickDecrement}
               >
                 <BsDashSquare color="#52606D" size={12} />
@@ -50,7 +50,7 @@ const CartItem = props => (
                 type="button"
                 className="quantity-controller-button"
                 // eslint-disable-next-line react/no-unknown-property
-                testid="plus"
+                data-testid="plus"
                 onClick={onClickIncrement}
               >
                 <BsPlusSquare color="#52606D" size={12} />
@@ -72,7 +72,7 @@ const CartItem = props => (
             type="button"
             onClick={onRemoveCartItem}
             // eslint-disable-next-line react/no-unknown-property
-            testid="remove"
+            data-testid="remove"
           >
             <AiFillCloseCircle color="#616E7C" size={20} />
           </button>
